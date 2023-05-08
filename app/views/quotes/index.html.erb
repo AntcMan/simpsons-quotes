@@ -1,0 +1,6 @@
+<h1>Simpsons Quote of the Day</h1>
+
+<% @quotes.each do |quote| %>
+  <p><%= quote["quote"] %></p>
+  <p><%= quote["character"] %></p>
+<% end %>
